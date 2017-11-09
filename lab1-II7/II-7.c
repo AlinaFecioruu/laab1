@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int i;
+    for(i=1;i<=100;i++){
+        while((i>=32)&&(i<=39))
+            {
+                printf("%d\n",i);
+                i++;
+            }
+    }
+
+        return 0;
+
+}
